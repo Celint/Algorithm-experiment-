@@ -36,7 +36,7 @@ void QuickSort(int arr[], int left, int right)
 int main()
 {
     //为了调试方便，将待输入的数据存放到一个text文件里面
-    // ifstream in("quick.txt");
+    // ifstream in("sort.txt");
     // int n;
     // in >> n;
     // int arr[n];
