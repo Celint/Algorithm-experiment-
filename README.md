@@ -9,5 +9,9 @@ Tournament_schedule.cpp
 Quick_Sort.cpp  使用sort.txt的数据
 ## 2.归并排序算法
 Merge_Sort.cpp  使用sort.txt的数据
-## 3.归并排序算法
+## 3.冒泡排序算法
 BubbleSort.cpp  使用sort.txt的数据
+## 4.选择排序算法
+SelectSort.cpp  使用sort.txt的数据
+## 5.插入排序算法
+InsertionSort.cpp  使用sort.txt的数据
