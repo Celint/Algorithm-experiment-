@@ -44,7 +44,7 @@ void MergeSort(int arr[], int left, int right)
 }
 int main()
 {
-    // ifstream in("quick.txt");
+    // ifstream in("sort.txt");
     // int n;
     // in >> n;
     // int arr[n];
