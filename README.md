@@ -4,5 +4,4 @@
 Tournament_schedule.cpp
 # 算法
 ## 快速排序算法
-Quick_Sort.cpp
-quick.txt
+Quick_Sort.cpp和quick.txt
