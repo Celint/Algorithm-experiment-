@@ -7,6 +7,9 @@
 #include <iostream>
 // #include <fstream>
 using namespace std;
+/**
+ * @描述: 选择排序
+ */
 void SelectSort(int arr[], int n)
 {
     for (int i = 0; i < n - 1; i++)
