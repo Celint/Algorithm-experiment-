@@ -3,6 +3,7 @@
 ## 实验一：循环赛日程表安排
 Tournament_schedule.cpp
 # 算法
-## 快速排序算法
-Quick_Sort.cpp和quick.txt
-Merge_Sort.cpp（使用quick.txt的数据）
+## 1.快速排序算法
+Quick_Sort.cpp  使用sort.txt的数据
+## 2.归并排序算法
+Merge_Sort.cpp  使用sort.txt的数据
