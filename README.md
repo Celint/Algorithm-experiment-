@@ -2,8 +2,8 @@
 # 算法实验
 ## 实验一：循环赛日程表安排
 TournamentSchedule.cpp
-# 动态规划
-## 循环赛日程表安排
+# 分治法
+## 1.循环赛日程表安排
 TournamentSchedule.cpp
 # 排序算法
 ## 0.排序算法分析 && 待插入数据
