@@ -1,7 +1,7 @@
 # Algorithm-experiment-
 # 算法实验
 ## 实验一：循环赛日程表安排
-TournamentSchedule.cpp
+分治法/TournamentSchedule.cpp
 # 分治法
 ## 1.循环赛日程表安排
 TournamentSchedule.cpp
