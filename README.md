@@ -2,6 +2,8 @@
 # 算法实验
 ## 实验一：循环赛日程表安排
 分治法/TournamentSchedule.cpp
+## 实验二：寻找第k小的值
+分治法/k-th_smallest_element_problem.cpp
 # 分治法
 ## 1.循环赛日程表安排
 分治法/TournamentSchedule.cpp
