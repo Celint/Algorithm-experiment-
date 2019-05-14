@@ -5,6 +5,9 @@
 ## 实验二：寻找第k小的值
 分治法/k-th_smallest_element_problem.cpp   
 分治法/k-th.txt
+## 实验三：求最近点对问题
+分治法/k-th_smallest_element_problem.cpp   
+分治法/points.txt
 # 分治法
 ## 1.循环赛日程表安排
 分治法/TournamentSchedule.cpp
