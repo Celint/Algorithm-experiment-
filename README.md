@@ -5,12 +5,18 @@
 ## 实验二：寻找第k小的值
 分治法/k-th_smallest_element_problem.cpp   
 分治法/k-th.txt
+## 实验三：求最近点对问题
+分治法/NearestPointPair.cpp   
+分治法/points.txt
 # 分治法
 ## 1.循环赛日程表安排
 分治法/TournamentSchedule.cpp
 ## 2.寻找第k小的值
 分治法/k-th_smallest_element_problem.cpp   
 分治法/k-th.txt
+## 3.求最近点对问题
+分治法/NearestPointPair.cpp   
+分治法/points.txt
 # 排序算法
 ## 0.排序算法分析 && 待插入数据
 排序算法/排序算法分析.png    
