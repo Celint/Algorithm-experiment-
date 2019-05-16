@@ -7,92 +7,79 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
+/**
+ * @描述: 物品的数据结构
+ */
+typedef struct thing
+{
+    int value;
+    int weight;
+    double eachValue;
+};
 int main()
 {
     ifstream in("knapsack.txt");
     int n;
     in >> n;
-    int value[100], weight[100];
+    thing arr[100];
     for (int i = 0; i < 100; i++)
-        in >> value[i];
+        in >> arr[i].value;
     for (int i = 0; i < 100; i++)
-        in >> weight[i];
+        in >> arr[i].weight;
     cout << "背包大小为：" << n << endl;
-    cout << "价值为：" << endl;
-    for (int i = 0; i < 100; i++)
-        cout << value[i] << " ";
-    cout << "\n重量分别为：" << endl;
-    for (int i = 0; i < 100; i++)
-        cout << weight[i] << " ";
-    cout << "\n每件物品的单位价值高低分别为：" << endl;
-    double eachValue[100];
+    cout << "\n每件物品的价值、重量、单位价值分别为：" << endl;
     for (int i = 0; i < 100; i++)
     {
-        eachValue[i] = double(value[i]) / double(weight[i]);
-        cout << eachValue[i] << " ";
+        arr[i].eachValue = double(arr[i].value) / double(arr[i].weight);
+        cout << arr[i].value << ", " << arr[i].weight << ", " << arr[i].eachValue << endl;
     }
     cout << endl;
-    //冒泡排序对物品进行从大到小排序
+    //冒泡排序对物品单位价值进行从大到小排序
     int m = 100;
     while (m != 0)
     {
         for (int i = 0; i < m - 1; i++)
         {
-            if (eachValue[i] < eachValue[i + 1])
+            if (arr[i].eachValue < arr[i + 1].eachValue)
             {
-                int temp = eachValue[i];
-                eachValue[i] = eachValue[i + 1];
-                eachValue[i + 1] = temp;
-                temp = value[i];
-                value[i] = value[i + 1];
-                value[i + 1] = temp;
-                temp = weight[i];
-                weight[i] = weight[i + 1];
-                weight[i + 1] = temp;
+                thing temp = arr[i];
+                arr[i] = arr[i + 1];
+                arr[i + 1] = temp;
             }
         }
         m--;
     }
     //排序后
-    cout << "\n排序后：\n";
-    cout << "价值为：" << endl;
+    cout << "\n排序后：";
+    cout << "\n每件物品的价值、重量、单位价值分别为：" << endl;
     for (int i = 0; i < 100; i++)
-        cout << value[i] << " ";
-    cout << "\n重量分别为：" << endl;
-    for (int i = 0; i < 100; i++)
-        cout << weight[i] << " ";
-    cout << "\n每件物品的单位价值高低分别为：" << endl;
-    for (int i = 0; i < 100; i++)
-    {
-        eachValue[i] = double(value[i]) / double(weight[i]);
-        cout << eachValue[i] << " ";
-    }
+        cout << arr[i].value << ", " << arr[i].weight << ", " << arr[i].eachValue << endl;
     cout << endl;
     int i = 0;
     //装包, 先把前面的揽走
-    int totalWeight = 0, totalValue = 0;
-    while (n - weight[i] >= 0)
+    thing total;
+    total.value = 0;
+    total.weight = 0;
+    while (n - arr[i].weight >= 0)
     {
-        totalWeight += weight[i];
-        totalValue += value[i];
-        n -= weight[i];
+        total.weight += arr[i].weight;
+        total.value += arr[i].value;
+        n -= arr[i].weight;
         i++;
     }
 
-    cout << endl
-         << i << " " << n << endl;
+    cout << endl;
     //后面还可以装下，把能装下的装下
     for (int j = i; j < 100; j++)
     {
-        if (n - weight[j] >= 0)
+        if (n - arr[j].weight >= 0)
         {
-            totalWeight += weight[j];
-            totalValue += value[j];
-            n -= weight[j];
-            cout << j << " " << n << ", ";
+            total.weight += arr[j].weight;
+            total.value += arr[j].value;
+            n -= arr[j].weight;
         }
     }
-    cout << "\n最终装包：大小为" << totalWeight << ", 价值为" << totalValue << endl;
+    cout << "\n最终装包：大小为" << total.weight << ", 价值为" << total.value << endl;
     system("pause");
     return 0;
 }
