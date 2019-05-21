@@ -53,7 +53,7 @@ int main()
     cout << "\n排序后：";
     cout << "\n每件物品的价值、重量、单位价值分别为：" << endl;
     for (int i = 0; i < 100; i++)
-        cout << arr[i].value << ", " << arr[i].weight << ", " << arr[i].eachValue << endl;
+        cout << arr[i].value << "\t" << arr[i].weight << "\t" << arr[i].eachValue << endl;
     cout << endl;
     int i = 0;
     //装包, 先把前面的揽走
