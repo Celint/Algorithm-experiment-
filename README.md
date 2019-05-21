@@ -21,6 +21,8 @@
 ## 1.贪心算法求解背包问题
 贪心算法/The Knapsack Problem.cpp  
 贪心算法/Knapsack.txt  
+## 2.贪心算法求解找零钱问题
+贪心算法/Change Making Problem.cpp
 ****
 # 回溯法
 ## 1.回溯法求解八皇后问题
