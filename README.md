@@ -9,6 +9,23 @@
 ## 3.求最近点对问题
 分治法/NearestPointPair.cpp   
 分治法/points.txt
+****
+# 减治法
+****
+# 动态规划
+## 1.动态规划求解0-1背包问题
+动态规划/Knapsack.cpp  
+动态规划/Knapsack.txt  
+****
+# 贪心算法
+## 1.贪心算法求解背包问题
+贪心算法/The Knapsack Problem.cpp  
+贪心算法/Knapsack.txt  
+****
+# 回溯法
+## 1.回溯法求解八皇后问题
+回溯法/Queen.cpp
+****
 # 排序算法
 ## 0.排序算法分析 && 待插入数据
 排序算法/排序算法分析.png    
