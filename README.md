@@ -36,18 +36,18 @@
 贪心算法/Knapsack.txt  
 [贪心算法求解背包问题](https://github.com/Celint/Algorithm-experiment-/tree/master/贪心算法)
 ## 2.贪心算法求解找零钱问题
-贪心算法/Change Making Problem.cpp
+贪心算法/Change Making Problem.cpp  
 [贪心算法求解找零钱问题](https://github.com/Celint/Algorithm-experiment-/tree/master/贪心算法)
 ****
 # 回溯法
 ## 1.回溯法求解八皇后问题
-回溯法/Queen.cpp
+回溯法/Queen.cpp  
 [回溯法求解八皇后问题](https://github.com/Celint/Algorithm-experiment-/tree/master/回溯法)
 ****
 # 排序算法
 ## 0.排序算法分析 && 待插入数据
 排序算法/排序算法分析.png    
-排序算法/sort.txt
+排序算法/sort.txt  
 [排序算法分析 && 待插入数据](https://github.com/Celint/Algorithm-experiment-/tree/master/排序算法)
 ## 1.快速排序算法
 排序算法/QuickSort.cpp  使用sort.txt的数据  
