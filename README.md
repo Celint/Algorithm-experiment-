@@ -47,7 +47,7 @@
 # 排序算法
 ## 0.排序算法分析 && 待插入数据
 排序算法/排序算法分析.png    
-排序算法/sort.txt  
+排序算法/sort.txt   
 [排序算法分析 && 待插入数据](https://github.com/Celint/Algorithm-experiment-/tree/master/排序算法)
 ## 1.快速排序算法
 排序算法/QuickSort.cpp  使用sort.txt的数据  
