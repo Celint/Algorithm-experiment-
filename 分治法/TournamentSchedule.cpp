@@ -5,6 +5,8 @@
  * @Date: 2019-04-16
  */
 #include <iostream>
+#include <fstream>
+#include <cmath>
 using namespace std;
 #define MAX 1024
 int tour[MAX][MAX];
@@ -43,11 +45,9 @@ void Tournament(int n, int m)
 int main()
 {
     int k;
-    cout << "请输入2^k位选手中k的值，k = ";
-    do
-    {
-        cin >> k;
-    } while (k < 0 || k > 15);
+    ifstream in("TS.txt");
+    in >> k;
+    cout << "一共有" << pow(2, k) << "位选手\n";
     int n = 0x1 << k; //左移k位，表示2^k
     Tournament(n, 0);
     for (int i = 0; i < n; i++)
