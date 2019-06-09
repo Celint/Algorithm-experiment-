@@ -1,0 +1,10 @@
+{
+    "editor.mouseWheelZoom": true,
+    "files.associations": {
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "cmath": "cpp"
+    },
+    "python.linting.enabled": false
+}
