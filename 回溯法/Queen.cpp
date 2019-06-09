@@ -5,6 +5,7 @@
  * @Date: 2019-05-21
  */
 #include <iostream>
+#include <fstream>
 using namespace std;
 int c = 1, q, count = 0;
 /**
@@ -44,7 +45,8 @@ void Search(int c[], int cur)
 int main()
 {
     int n;
-    cin >> n;
+    ifstream in("Queen.txt");
+    in >> n;
     int c[n];
     q = n;
     Search(c, 0);
