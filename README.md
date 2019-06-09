@@ -3,6 +3,7 @@
 # 分治法
 ## 1.循环赛日程表安排
 分治法/TournamentSchedule.cpp  
+分治法/TS.txt  
 [循环赛日程表安排](https://github.com/Celint/Algorithm-experiment-/tree/master/分治法)
 ## 2.寻找第k小的值
 分治法/k-th_smallest_element_problem.cpp   
@@ -61,6 +62,7 @@
 # 回溯法
 ## 1.回溯法求解八皇后问题
 回溯法/Queen.cpp  
+回溯法/Queen.txt  
 [回溯法求解八皇后问题](https://github.com/Celint/Algorithm-experiment-/tree/master/回溯法)
 ****
 # 排序算法
