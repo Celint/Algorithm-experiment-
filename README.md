@@ -35,6 +35,10 @@
 动态规划/Floyd.txt  
 动态规划/Floyd.png  
 [Floyd 所有点对最短路径算法](https://github.com/Celint/Algorithm-experiment-/tree/master/动态规划)
+## 3.二项式系数算法
+动态规划/Binomial.cpp  
+动态规划/Binomial.txt  
+[二项式系数算法](https://github.com/Celint/Algorithm-experiment-/tree/master/动态规划)
 ## 6.动态规划求解0-1背包问题
 动态规划/Knapsack.cpp  
 动态规划/Knapsack.txt  
