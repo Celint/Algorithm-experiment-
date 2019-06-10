@@ -45,6 +45,11 @@
 动态规划/DAG.txt  
 动态规划/有向加权图中的最长路径.png  
 [有向加权图中的最长路径](https://github.com/Celint/Algorithm-experiment-/tree/master/动态规划)
+## 5.比对
+动态规划/Edit Distance.cpp  
+动态规划/ED1.txt  
+动态规划/ED2.txt  
+[比对](https://github.com/Celint/Algorithm-experiment-/tree/master/动态规划)
 ## 6.动态规划求解0-1背包问题
 动态规划/Knapsack.cpp  
 动态规划/Knapsack.txt  
