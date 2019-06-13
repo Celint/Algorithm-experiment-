@@ -63,6 +63,11 @@
 ## 2.贪心算法求解找零钱问题
 贪心算法/Change Making Problem.cpp  
 [贪心算法求解找零钱问题](https://github.com/Celint/Algorithm-experiment-/tree/master/贪心算法)
+## 3.最小生成数的Prim算法
+贪心算法/MSTPrim.cpp  
+贪心算法/MST.txt  
+贪心算法/MST.jpg  
+[最小生成数的Prim算法](https://github.com/Celint/Algorithm-experiment-/tree/master/贪心算法)
 ****
 # 回溯法
 ## 1.回溯法求解八皇后问题
