@@ -1,5 +1,5 @@
 /*
- * @描述: 深度优先遍历算法
+ * @描述: 深度广度优先遍历算法
  * @作者: 李天红
  * @Github: https://github.com/Celint/Algorithm-experiment-
  * @Date: 2019-06-04
